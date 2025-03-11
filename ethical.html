@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard Academy - Ethical Hacking Guides</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(120deg, #1a1a1a, #2d3436);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,255,0,0.1);
+        }
+        .matrix-bg {
+            background-color: #000;
+            background-image: 
+                linear-gradient(rgba(0, 255, 0, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 0, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .glow {
+            text-shadow: 0 0 10px rgba(0,255,0,0.5);
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-100">
+    <!-- Navbar -->
+    <nav class="gradient-bg fixed w-full z-50 top-0">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-green-500 font-bold text-2xl glow">CyberGuard</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="hover:text-green-500 transition">Home</a>
+                    <a href="#" class="hover:text-green-500 transition">Courses</a>
+                    <a href="#" class="hover:text-green-500 transition">Tools</a>
+                    <a href="#" class="hover:text-green-500 transition">Blog</a>
+                    <a href="#" class="hover:text-green-500 transition">Contact</a>
+                </div>
+                <button class="bg-green-500 text-black px-6 py-2 rounded-full hover:bg-green-400 transition">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="matrix-bg min-h-screen pt-24 pb-12">
+        <div class="container mx-auto px-4 flex flex-col items-center justify-center min-h-screen">
+            <h1 class="text-4xl md:text-6xl font-bold text-center mb-6 text-green-500 glow">
+                Master Ethical Hacking
+            </h1>
+            <p class="text-xl md:text-2xl text-center mb-8 max-w-2xl">
+                Learn cybersecurity from industry experts. Become a certified ethical hacker and protect digital assets.
+            </p>
+            <div class="flex gap-4">
+                <button class="bg-green-500 text-black px-8 py-3 rounded-full hover:bg-green-400 transition">
+                    Start Learning
+                </button>
+                <button class="border border-green-500 text-green-500 px-8 py-3 rounded-full hover:bg-green-500 hover:text-black transition">
+                    View Courses
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 gradient-bg">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-green-500">Why Choose CyberGuard?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-black p-6 rounded-lg card-hover transition">
+                    <h3 class="text-xl font-bold mb-4 text-green-500">Practical Labs</h3>
+                    <p>Hands-on experience with real-world scenarios in our secure virtual lab environment.</p>
+                </div>
+                <div class="bg-black p-6 rounded-lg card-hover transition">
+                    <h3 class="text-xl font-bold mb-4 text-green-500">Expert Instructors</h3>
+                    <p>Learn from certified professionals with years of industry experience.</p>
+                </div>
+                <div class="bg-black p-6 rounded-lg card-hover transition">
+                    <h3 class="text-xl font-bold mb-4 text-green-500">Latest Tools</h3>
+                    <p>Access to cutting-edge cybersecurity tools and techniques used in the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-green-500">Popular Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-900 rounded-lg overflow-hidden card-hover transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-green-500">Network Penetration Testing</h3>
+                        <p class="mb-4">Learn how to identify and exploit network vulnerabilities ethically.</p>
+                        <button class="bg-green-500 text-black px-6 py-2 rounded-full hover:bg-green-400 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden card-hover transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-green-500">Web Application Security</h3>
+                        <p class="mb-4">Master the art of securing web applications from common attacks.</p>
+                        <button class="bg-green-500 text-black px-6 py-2 rounded-full hover:bg-green-400 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden card-hover transition">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-4 text-green-500">Malware Analysis</h3>
+                        <p class="mb-4">Understand and analyze different types of malware and their behaviors.</p>
+                        <button class="bg-green-500 text-black px-6 py-2 rounded-full hover:bg-green-400 transition">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 gradient-bg">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-green-500">Ready to Start Your Journey?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Join thousands of students who have transformed their careers with CyberGuard Academy.
+            </p>
+            <button class="bg-green-500 text-black px-8 py-3 rounded-full hover:bg-green-400 transition">
+                Enroll Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-green-500 font-bold text-xl mb-4">CyberGuard</h3>
+                    <p>Empowering the next generation of ethical hackers and cybersecurity professionals.</p>
+                </div>
+                <div>
+                    <h4 class="text-green-500 font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-green-500 transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Courses</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-green-500 font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-green-500 transition">Documentation</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Tools</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Community</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-green-500 font-bold mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-green-500 transition">Twitter</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">Discord</a></li>
+                        <li><a href="#" class="hover:text-green-500 transition">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p>&copy; 2025 CyberGuard Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
